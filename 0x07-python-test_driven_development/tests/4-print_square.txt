@@ -61,4 +61,14 @@ The parameter ``size`` must be an integer. Otherwise, a TypeError is raised.
     Traceback (most recent call last):
     TypeError: size must be an integer
 
+::
+
+    >>> print_square(None)
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+If ``size`` is less than zero, a ValueError is raised.
+
+::
+
 
